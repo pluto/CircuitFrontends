@@ -1,7 +1,7 @@
 # Circuit Anatomy
 
 A Circuit Frontend is a tool allowing you to define circuit constraints.
-A circuit Frontend with compile down to constraint systems by an arithmetization of circuit constraints.
+A circuit Frontend will compile down to constraint systems by an arithmetization of circuit constraints.
 Circuit constraint systems are then fed to a proving backend to generate a proof.
 There are four well known constraint systems:
 
@@ -11,7 +11,7 @@ There are four well known constraint systems:
 - Algebraic Intermediate Representation (AIR)
 
 CCS and Plonkish arithmetization schemes have the advantage of being able to support lookup arguments which we are interested in. We are not interest in ploink as 
-We are particulartly interested in CCS as they support lookup arguments which we are interested in as they can give us performance benefits.
+we are particulartly interested in CCS as they support lookup arguments which we are interested in as they can give us performance benefits.
 
 ## Frontends
 
